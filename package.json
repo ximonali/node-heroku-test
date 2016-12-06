@@ -1,0 +1,26 @@
+{
+  "name": "node-heroku-test",
+  "version": "1.0.0",
+  "description": "testing nodeapp in heroku",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ximonali/node-heroku-test.git"
+  },
+  "author": "Simon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ximonali/node-heroku-test/issues"
+  },
+  "homepage": "https://github.com/ximonali/node-heroku-test#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.4",
+    "express": "^4.14.0",
+    "express-ejs-layouts": "^2.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
