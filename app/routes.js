@@ -22,9 +22,9 @@ router.get('/about', function(req,res){
 	// res.sendFile(path.join(__dirname,'../about.ejs'));
 
 var users = [
-	{ name : 'Simon', email : 'ximonali@gmail.com', avatar: 'http://localhost/simongg/assets/img/simon-gonzalez.png' },
-	{ name : 'Diana', email : 'diana@gmail.com', avatar: 'http://localhost/simongg/assets/img/simon-gonzalez.png' },
-	{ name : 'Pedro', email : 'pedro@gmail.com', avatar: 'http://localhost/simongg/assets/img/simon-gonzalez.png' },
+	{ name : 'Simon', email : 'ximonali@gmail.com', avatar: 'http://placehold.it/400x400' },
+	{ name : 'Diana', email : 'diana@gmail.com', avatar: 'http://placehold.it/400x400' },
+	{ name : 'Pedro', email : 'pedro@gmail.com', avatar: 'http://placehold.it/400x400' },
 ];
 
 	res.render('pages/about', { users : users });
